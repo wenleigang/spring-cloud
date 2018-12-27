@@ -1,13 +1,13 @@
-#·şÎñ¶Ë¿ÚºÅ
+#æœåŠ¡ç«¯å£å·
 server:
   port: 8761
 
-#eureka×¢²á·şÎñÅäÖÃ
+#eurekaæ³¨å†ŒæœåŠ¡é…ç½®
 eureka:
   instance:
     hostname: localhost
   client:
-    #Ë«false±êÊ¶Î¢·şÎñ±¾ÉíÊÇÒ»¸öeureka server,²»×÷ÎªÎ¢·şÎñ×¢²á
+    #åŒfalseæ ‡è¯†å¾®æœåŠ¡æœ¬èº«æ˜¯ä¸€ä¸ªeureka server,ä¸ä½œä¸ºå¾®æœåŠ¡æ³¨å†Œ
     register-with-eureka: false
     fetch-registry: false
     service-url:
